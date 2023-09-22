@@ -10,7 +10,7 @@ npm run build
 
 Then simply open the dist/index.html file in your browser.
 
-To build against a local version of lezer-promql, make sure to follow the [instructions in lezer-promql](https://github.com/prometheus/prometheus/blob/main/web/ui/module/lezer-promql/README.md) and then update the package.json to point to the local version: 
+To build against a local version of lezer-promql, make sure to follow the [instructions to build lezer-promql](https://github.com/prometheus/prometheus/blob/main/web/ui/module/lezer-promql/README.md) and then update the package.json to point to the local version: 
 
     "@prometheus-io/lezer-promql": "file:/Users/USERNAME/projects/prometheus/web/ui/module/lezer-promql/dist",
     
