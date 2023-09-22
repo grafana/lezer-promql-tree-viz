@@ -1,15 +1,13 @@
-# 🚀 Welcome to your new awesome project!
+# Lezer-promql tree visualization
+A simple application based off the logQL [tree visualization](https://github.com/grafana/lezer-logql/blob/main/tools/tree-viz.html).
+Make sure to update the version of prometheus-io/lezer-promql in package.json to the version you are working with. By default, it's using the latest version used in Grafana.
 
-This project has been created using **webpack-cli**, you can now run
+To build default tree visualization:
 
 ```
 npm run build
 ```
 
-or
+To build against a local version of lezer-promql, make sure to follow the [instructions in lezer-promql](https://github.com/prometheus/prometheus/blob/main/web/ui/module/lezer-promql/README.md) and then update the package.json to point to the local version: 
 
-```
-yarn build
-```
-
-to bundle your application
+    "@prometheus-io/lezer-promql": "file:/Users/USERNAME/projects/prometheus/web/ui/module/lezer-promql/dist",
