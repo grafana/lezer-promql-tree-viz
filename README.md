@@ -3,7 +3,7 @@ A simple application based off the logQL [tree visualization](https://github.com
 Make sure to update the version of prometheus-io/lezer-promql in package.json to the version you are working with. By default, it's using the latest version used in Grafana.
 
 To build default tree visualization:
-
+[index.html](src%2Findex.html)
 ```
 npm run build
 ```
