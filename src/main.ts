@@ -11,8 +11,8 @@ let currentlyVisualizedPos = 0;
 
 graphviz.dot(dot).then(svg => {
     const inElem = document.querySelector('#in') as HTMLTextAreaElement;
-    const graphViz = document.getElementById("out");
-    const cursorPosElem = document.querySelector('#cursor-pos');
+    const graphViz = document.getElementById("out") ?? new HTMLElement();
+    const cursorPosElem = document.querySelector('#cursor-pos') ?? new HTMLElement();
     graphViz.innerHTML = svg;
 
     inElem.focus();
@@ -49,7 +49,7 @@ graphviz.dot(dot).then(svg => {
             graphLines.push(getGraphLine(cur.node));
         }
 
-        const posCur = tree.cursor(pos);
+        // const posCur = tree.cursor(pos);
 
         //@ts-ignore
         const nodeText = getNodeText(tree.cursor(pos));
