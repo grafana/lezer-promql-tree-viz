@@ -143,17 +143,17 @@
   dependencies:
     "@lezer/common" "^1.0.0"
 
-"@lezer/lr@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@lezer/lr/-/lr-1.4.0.tgz#ed52a75dbbfbb0d1eb63710ea84c35ee647cb67e"
-  integrity sha512-Wst46p51km8gH0ZUmeNrtpRYmdlRHUpN1DQd3GFAyKANi8WVz8c2jHYTf1CVScFaCjQw1iO3ZZdqGDxQPRErTg==
+"@lezer/lr@1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@lezer/lr/-/lr-1.4.2.tgz#931ea3dea8e9de84e90781001dae30dea9ff1727"
+  integrity sha512-pu0K1jCIdnQ12aWNaAVU5bzi7Bd1w54J3ECgANPmYLtQKP0HBj2cE/5coBD66MT10xbtIuUr7tg0Shbsvk0mDA==
   dependencies:
     "@lezer/common" "^1.0.0"
 
-"@prometheus-io/lezer-promql@0.51.2":
-  version "0.51.2"
-  resolved "https://registry.yarnpkg.com/@prometheus-io/lezer-promql/-/lezer-promql-0.51.2.tgz#66099a4328ade64a24e5560064a05df6100f025e"
-  integrity sha512-hNzCmsSRAFPkkpIQ8GdZcTMQRhcgPZlQtLcMjrVKmdqchYtV3TJe5knSYQeQ3cODtVBPEjJqeMTeDVSpJUQfoA==
+"@prometheus-io/lezer-promql@0.53.1":
+  version "0.53.1"
+  resolved "https://registry.yarnpkg.com/@prometheus-io/lezer-promql/-/lezer-promql-0.53.1.tgz#e2dd41ad1f72e667201bd88384a89132fcc45700"
+  integrity sha512-gQJm88qAEntXrervWuWl6auuljcSg4CXbrbe/xfRsqxB1C0aWYbx9ZaUdBGf2vaulZjZtxi1e2tIlkRmjfDi7g==
 
 "@rollup/rollup-android-arm-eabi@4.14.1":
   version "4.14.1"
