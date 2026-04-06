@@ -139,7 +139,7 @@
   dependencies:
     yargs "17.5.1"
 
-"@hpcc-js/wasm@^1.12.8":
+"@hpcc-js/wasm@1.20.1":
   version "1.20.1"
   resolved "https://registry.yarnpkg.com/@hpcc-js/wasm/-/wasm-1.20.1.tgz#84689cfdaa83b853171c38164eaedd25b1f704f5"
   integrity sha512-M1Blw6CdDkiurEmUTDFf7DDOVXOVblSKHBcc/+pUiBj2lIXgxkVOZhIm54zNspQdpurv7KKJ7VbylYMQRm4IyQ==
@@ -451,7 +451,7 @@ d3-geo@2:
   dependencies:
     d3-array "^2.5.0"
 
-d3-graphviz@^4.5.0:
+d3-graphviz@4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/d3-graphviz/-/d3-graphviz-4.5.0.tgz#9638b5f0e8c2f029a4b0423e14b15d1a84ff3ca5"
   integrity sha512-qEhZB19Tv7oNV92Hys/aY+XkVCyHAzM+VjqbjJoHK5YXLC3tRtZoSFr64tdrURl8qRsKnphtvPeFpHeJAbOgSQ==
@@ -569,7 +569,7 @@ d3-zoom@2, d3-zoom@^2.0.0:
     d3-selection "2"
     d3-transition "2"
 
-d3@^6.7.0:
+d3@6.7.0:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/d3/-/d3-6.7.0.tgz#adac458597b4a2cafe8e08cf30948af0c95cd61f"
   integrity sha512-hNHRhe+yCDLUG6Q2LwvR/WdNFPOJQ5VWqsJcwIYVeI401+d2/rrCjxSXkiAdIlpx7/73eApFB4Olsmh3YN7a6g==
@@ -786,12 +786,12 @@ tinyglobby@^0.2.13:
     fdir "^6.5.0"
     picomatch "^4.0.3"
 
-typescript@^5.2.2:
+typescript@5.4.5:
   version "5.4.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.5.tgz#42ccef2c571fdbd0f6718b1d1f5e6e5ef006f611"
   integrity sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==
 
-vite@^6.0.0:
+vite@6.4.2:
   version "6.4.2"
   resolved "https://registry.yarnpkg.com/vite/-/vite-6.4.2.tgz#a4e548ca3a90ca9f3724582cab35e1ba15efc6f2"
   integrity sha512-2N/55r4JDJ4gdrCvGgINMy+HH3iRpNIz8K6SFwVsA+JbQScLiC+clmAxBgwiSPgcG9U15QmvqCGWzMbqda5zGQ==
