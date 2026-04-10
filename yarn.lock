@@ -165,10 +165,10 @@
   dependencies:
     "@lezer/common" "^1.0.0"
 
-"@prometheus-io/lezer-promql@0.304.0":
-  version "0.304.0"
-  resolved "https://registry.yarnpkg.com/@prometheus-io/lezer-promql/-/lezer-promql-0.304.0.tgz#a5b04ccb99bd684a08a8afb49125e96205aa3e67"
-  integrity sha512-VwMwirH/YeO7gXtLsN9DctilCEY5lQMV//z+HnN9V+9GYqETDHmVCmOi6daq54giVQA9X3fX77ya0qsxPRgkIg==
+"@prometheus-io/lezer-promql@0.311.1":
+  version "0.311.1"
+  resolved "https://registry.yarnpkg.com/@prometheus-io/lezer-promql/-/lezer-promql-0.311.1.tgz#bc9fe57686f8947a6300b8cb563bde8729d3021b"
+  integrity sha512-ygE/d92FPPgqsvqljmwmeZzZXToY6fOJ9MlH5uxZT/Le8VuTiYKjcL3trAKUL8gJ3ZkUbdjtbMRZeW+69bSC/Q==
 
 "@rollup/rollup-android-arm-eabi@4.60.1":
   version "4.60.1"
