@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@hpcc-js/wasm": "^1.12.8",
-    "@lezer/common": "1.2.3",
+    "@lezer/common": "1.5.2",
     "@lezer/highlight": "1.2.1",
     "@lezer/lr": "1.4.2",
     "@prometheus-io/lezer-promql": "0.304.0",
