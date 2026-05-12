@@ -218,19 +218,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lezer/common@npm:1.2.3, @lezer/common@npm:^1.0.0":
+"@lezer/common@npm:1.2.3":
   version: 1.2.3
   resolution: "@lezer/common@npm:1.2.3"
   checksum: 10c0/fe9f8e111080ef94037a34ca2af1221c8d01c1763ba5ecf708a286185c76119509a5d19d924c8842172716716ddce22d7834394670c4a9432f0ba9f3b7c0f50d
   languageName: node
   linkType: hard
 
-"@lezer/highlight@npm:1.2.1":
-  version: 1.2.1
-  resolution: "@lezer/highlight@npm:1.2.1"
+"@lezer/common@npm:^1.0.0, @lezer/common@npm:^1.3.0":
+  version: 1.5.2
+  resolution: "@lezer/common@npm:1.5.2"
+  checksum: 10c0/e39b46d74899409eab549df7942f00cd8c7f46c81ef0e2f079654ca96d262fca009927328bcd500d69270f5f09986e74768bed19c0acaadbd22f1a6c7dd9bd85
+  languageName: node
+  linkType: hard
+
+"@lezer/highlight@npm:1.2.3":
+  version: 1.2.3
+  resolution: "@lezer/highlight@npm:1.2.3"
   dependencies:
-    "@lezer/common": "npm:^1.0.0"
-  checksum: 10c0/51b4c08596a0dfeec6a7b7ed90a7f2743ab42e7e8ff8b89707fd042860e4e133dbd8243639fcaf077305ae6c303aa74e69794015eb16cb34741f5ac6721f283c
+    "@lezer/common": "npm:^1.3.0"
+  checksum: 10c0/3bcb4fce7a1a45b5973895d7cb2be47970a0098700f2a0970aef9878ffd37f540285a2d7388ec1f524726ec90cc5196b5701bbb9764b7e7300786d772b7d2ce2
   languageName: node
   linkType: hard
 
@@ -1051,7 +1058,7 @@ __metadata:
   dependencies:
     "@hpcc-js/wasm": "npm:^1.12.8"
     "@lezer/common": "npm:1.2.3"
-    "@lezer/highlight": "npm:1.2.1"
+    "@lezer/highlight": "npm:1.2.3"
     "@lezer/lr": "npm:1.4.2"
     "@prometheus-io/lezer-promql": "npm:0.304.0"
     d3: "npm:^6.7.0"
@@ -1124,7 +1131,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picomatch@npm:^4.0.2, picomatch@npm:^4.0.3, picomatch@npm:^4.0.4":
+"picomatch@npm:^4.0.2, picomatch@npm:^4.0.4":
   version: 4.0.4
   resolution: "picomatch@npm:4.0.4"
   checksum: 10c0/e2c6023372cc7b5764719a5ffb9da0f8e781212fa7ca4bd0562db929df8e117460f00dff3cb7509dacfc06b86de924b247f504d0ce1806a37fac4633081466b0
@@ -1309,23 +1316,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyglobby@npm:^0.2.12":
+"tinyglobby@npm:^0.2.12, tinyglobby@npm:^0.2.13":
   version: 0.2.16
   resolution: "tinyglobby@npm:0.2.16"
   dependencies:
     fdir: "npm:^6.5.0"
     picomatch: "npm:^4.0.4"
   checksum: 10c0/f2e09fd93dd95c41e522113b686ff6f7c13020962f8698a864a257f3d7737599afc47722b7ab726e12f8a813f779906187911ff8ee6701ede65072671a7e934b
-  languageName: node
-  linkType: hard
-
-"tinyglobby@npm:^0.2.13":
-  version: 0.2.15
-  resolution: "tinyglobby@npm:0.2.15"
-  dependencies:
-    fdir: "npm:^6.5.0"
-    picomatch: "npm:^4.0.3"
-  checksum: 10c0/869c31490d0d88eedb8305d178d4c75e7463e820df5a9b9d388291daf93e8b1eb5de1dad1c1e139767e4269fe75f3b10d5009b2cc14db96ff98986920a186844
   languageName: node
   linkType: hard
 
