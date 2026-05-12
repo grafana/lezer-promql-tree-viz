@@ -243,13 +243,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prometheus-io/lezer-promql@npm:0.304.0":
-  version: 0.304.0
-  resolution: "@prometheus-io/lezer-promql@npm:0.304.0"
+"@prometheus-io/lezer-promql@npm:0.311.3":
+  version: 0.311.3
+  resolution: "@prometheus-io/lezer-promql@npm:0.311.3"
   peerDependencies:
     "@lezer/highlight": ^1.1.2
     "@lezer/lr": ^1.2.3
-  checksum: 10c0/41bebd5be54751c6263324458f39b084a5cb08151568825cc331dcd66f5bb5e9f38449479b944a907f72d726c47a425c2e1918f81c3dc58bf9de629b8c6146ac
+  checksum: 10c0/4f0cd6b16418e1c2103178a30db7160e7a3615195087ae24cf730dd878abcd4d0640a3b1a1a89823aad0c3b05586ebb216f2957d02e4a1595fc53831c34379b7
   languageName: node
   linkType: hard
 
@@ -1053,7 +1053,7 @@ __metadata:
     "@lezer/common": "npm:1.2.3"
     "@lezer/highlight": "npm:1.2.1"
     "@lezer/lr": "npm:1.4.2"
-    "@prometheus-io/lezer-promql": "npm:0.304.0"
+    "@prometheus-io/lezer-promql": "npm:0.311.3"
     d3: "npm:^6.7.0"
     d3-graphviz: "npm:^4.5.0"
     typescript: "npm:^5.2.2"
@@ -1124,7 +1124,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picomatch@npm:^4.0.2, picomatch@npm:^4.0.3, picomatch@npm:^4.0.4":
+"picomatch@npm:^4.0.2, picomatch@npm:^4.0.4":
   version: 4.0.4
   resolution: "picomatch@npm:4.0.4"
   checksum: 10c0/e2c6023372cc7b5764719a5ffb9da0f8e781212fa7ca4bd0562db929df8e117460f00dff3cb7509dacfc06b86de924b247f504d0ce1806a37fac4633081466b0
@@ -1309,23 +1309,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyglobby@npm:^0.2.12":
+"tinyglobby@npm:^0.2.12, tinyglobby@npm:^0.2.13":
   version: 0.2.16
   resolution: "tinyglobby@npm:0.2.16"
   dependencies:
     fdir: "npm:^6.5.0"
     picomatch: "npm:^4.0.4"
   checksum: 10c0/f2e09fd93dd95c41e522113b686ff6f7c13020962f8698a864a257f3d7737599afc47722b7ab726e12f8a813f779906187911ff8ee6701ede65072671a7e934b
-  languageName: node
-  linkType: hard
-
-"tinyglobby@npm:^0.2.13":
-  version: 0.2.15
-  resolution: "tinyglobby@npm:0.2.15"
-  dependencies:
-    fdir: "npm:^6.5.0"
-    picomatch: "npm:^4.0.3"
-  checksum: 10c0/869c31490d0d88eedb8305d178d4c75e7463e820df5a9b9d388291daf93e8b1eb5de1dad1c1e139767e4269fe75f3b10d5009b2cc14db96ff98986920a186844
   languageName: node
   linkType: hard
 
