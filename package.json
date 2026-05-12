@@ -12,7 +12,7 @@
     "@hpcc-js/wasm": "^1.12.8",
     "@lezer/common": "1.2.3",
     "@lezer/highlight": "1.2.1",
-    "@lezer/lr": "1.4.2",
+    "@lezer/lr": "1.4.10",
     "@prometheus-io/lezer-promql": "0.304.0",
     "d3": "^6.7.0",
     "d3-graphviz": "^4.5.0",
