@@ -12,6 +12,24 @@ dist
 dist-ssr
 *.local
 
+# Yarn Berry (keep releases/plugins/patches/sdks/versions tracked if used)
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Vite & TypeScript build caches
+.vite/
+*.tsbuildinfo
+
+# Local env files (Vite convention)
+.env
+.env.local
+.env.*.local
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
