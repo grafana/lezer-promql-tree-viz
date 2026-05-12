@@ -198,7 +198,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hpcc-js/wasm@npm:^1.12.8":
+"@hpcc-js/wasm@npm:1.20.1":
   version: 1.20.1
   resolution: "@hpcc-js/wasm@npm:1.20.1"
   dependencies:
@@ -654,7 +654,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"d3-graphviz@npm:^4.5.0":
+"d3-graphviz@npm:4.5.0":
   version: 4.5.0
   resolution: "d3-graphviz@npm:4.5.0"
   dependencies:
@@ -808,7 +808,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"d3@npm:^6.7.0":
+"d3@npm:6.7.0":
   version: 6.7.0
   resolution: "d3@npm:6.7.0"
   dependencies:
@@ -1049,15 +1049,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "lezer-promql-tree-viz@workspace:."
   dependencies:
-    "@hpcc-js/wasm": "npm:^1.12.8"
+    "@hpcc-js/wasm": "npm:1.20.1"
     "@lezer/common": "npm:1.2.3"
     "@lezer/highlight": "npm:1.2.1"
     "@lezer/lr": "npm:1.4.2"
     "@prometheus-io/lezer-promql": "npm:0.304.0"
-    d3: "npm:^6.7.0"
-    d3-graphviz: "npm:^4.5.0"
-    typescript: "npm:^5.2.2"
-    vite: "npm:^6.0.0"
+    d3: "npm:6.7.0"
+    d3-graphviz: "npm:4.5.0"
+    typescript: "npm:5.4.5"
+    vite: "npm:6.4.2"
   languageName: unknown
   linkType: soft
 
@@ -1124,7 +1124,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picomatch@npm:^4.0.2, picomatch@npm:^4.0.3, picomatch@npm:^4.0.4":
+"picomatch@npm:^4.0.2, picomatch@npm:^4.0.4":
   version: 4.0.4
   resolution: "picomatch@npm:4.0.4"
   checksum: 10c0/e2c6023372cc7b5764719a5ffb9da0f8e781212fa7ca4bd0562db929df8e117460f00dff3cb7509dacfc06b86de924b247f504d0ce1806a37fac4633081466b0
@@ -1309,7 +1309,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyglobby@npm:^0.2.12":
+"tinyglobby@npm:^0.2.12, tinyglobby@npm:^0.2.13":
   version: 0.2.16
   resolution: "tinyglobby@npm:0.2.16"
   dependencies:
@@ -1319,17 +1319,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyglobby@npm:^0.2.13":
-  version: 0.2.15
-  resolution: "tinyglobby@npm:0.2.15"
-  dependencies:
-    fdir: "npm:^6.5.0"
-    picomatch: "npm:^4.0.3"
-  checksum: 10c0/869c31490d0d88eedb8305d178d4c75e7463e820df5a9b9d388291daf93e8b1eb5de1dad1c1e139767e4269fe75f3b10d5009b2cc14db96ff98986920a186844
-  languageName: node
-  linkType: hard
-
-"typescript@npm:^5.2.2":
+"typescript@npm:5.4.5":
   version: 5.4.5
   resolution: "typescript@npm:5.4.5"
   bin:
@@ -1339,7 +1329,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.2.2#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>":
   version: 5.4.5
   resolution: "typescript@patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"
   bin:
@@ -1356,7 +1346,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^6.0.0":
+"vite@npm:6.4.2":
   version: 6.4.2
   resolution: "vite@npm:6.4.2"
   dependencies:
