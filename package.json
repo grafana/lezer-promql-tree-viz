@@ -15,7 +15,7 @@
     "@lezer/lr": "1.4.10",
     "@prometheus-io/lezer-promql": "0.314.0",
     "d3": "7.9.0",
-    "d3-graphviz": "4.5.0",
+    "d3-graphviz": "5.6.0",
     "typescript": "5.4.5",
     "vite": "6.4.2"
   },
