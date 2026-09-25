@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@hpcc-js/wasm": "^1.12.8",
+    "@hpcc-js/wasm": "^2.0.0",
     "@lezer/common": "1.2.3",
     "@lezer/highlight": "1.2.1",
     "@lezer/lr": "1.4.2",
