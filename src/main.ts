@@ -48,10 +48,7 @@ Graphviz.load().then(graphviz => {
             graphLines.push(getGraphLine(cur.node));
         }
 
-        // const posCur = tree.cursor(pos);
-
-        //@ts-ignore
-        const nodeText = getNodeText(tree.cursor(pos));
+        const nodeText = getNodeText(tree.cursorAt(pos).node);
 
         const graphText = `digraph {
               ${graphLines.join('\n')}
