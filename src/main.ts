@@ -1,4 +1,4 @@
-import {Graphviz} from "@hpcc-js/wasm";
+import {Graphviz} from "@hpcc-js/wasm-graphviz";
 import {SyntaxNode, Tree} from "@lezer/common";
 import * as lezerLogQL from '@prometheus-io/lezer-promql'
 
