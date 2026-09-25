@@ -1,15 +1,14 @@
-import {graphviz, wasmFolder} from "@hpcc-js/wasm";
+import {Graphviz} from "@hpcc-js/wasm-graphviz";
 import {SyntaxNode, Tree} from "@lezer/common";
 import * as lezerLogQL from '@prometheus-io/lezer-promql'
-
-wasmFolder("https://cdn.jsdelivr.net/npm/@hpcc-js/wasm/dist");
 
 const dot = "digraph G { Hello -> World }";
 
 let currentlyVisualizedText = '';
 let currentlyVisualizedPos = 0;
 
-graphviz.dot(dot).then(svg => {
+Graphviz.load().then(graphviz => {
+    const svg = graphviz.dot(dot);
     const inElem = document.querySelector('#in') as HTMLTextAreaElement;
     const graphViz = document.getElementById("out") ?? new HTMLElement();
     const cursorPosElem = document.querySelector('#cursor-pos') ?? new HTMLElement();
@@ -42,17 +41,14 @@ graphviz.dot(dot).then(svg => {
         }
 
         const tree: Tree = lezerLogQL.parser.parse(text);
-        const cur = tree.cursor(0);
+        const cur = tree.cursor();
         const graphLines = [];
         graphLines.push(getGraphLine(cur.node));
         while (cur.next()) {
             graphLines.push(getGraphLine(cur.node));
         }
 
-        // const posCur = tree.cursor(pos);
-
-        //@ts-ignore
-        const nodeText = getNodeText(tree.cursor(pos));
+        const nodeText = getNodeText(tree.cursorAt(pos).node);
 
         const graphText = `digraph {
               ${graphLines.join('\n')}
@@ -60,14 +56,12 @@ graphviz.dot(dot).then(svg => {
             }`.trim();
 
 
-        graphviz.dot(graphText).then(svg => {
-            graphViz.innerHTML = svg;
+        graphViz.innerHTML = graphviz.dot(graphText);
 
-            currentlyVisualizedText = text;
-            currentlyVisualizedPos = pos;
+        currentlyVisualizedText = text;
+        currentlyVisualizedPos = pos;
 
-            cursorPosElem.innerHTML = pos.toString();
-        })
+        cursorPosElem.innerHTML = pos.toString();
     }
 
     render();
