@@ -9,17 +9,17 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@hpcc-js/wasm-graphviz": "1.29.1",
-    "@lezer/common": "1.5.2",
-    "@lezer/highlight": "1.2.3",
-    "@lezer/lr": "1.4.10",
-    "@prometheus-io/lezer-promql": "0.314.0",
+    "@hpcc-js/wasm-graphviz": "1.29.2",
+    "@lezer/common": "1.5.3",
+    "@lezer/highlight": "1.2.5",
+    "@lezer/lr": "1.4.11",
+    "@prometheus-io/lezer-promql": "0.315.0",
     "typescript": "7.0.2",
-    "vite": "8.3.0"
+    "vite": "8.3.3"
   },
   "engines": {
     "node": ">=24.21.0",
     "npm": ">=11.19.0"
   },
-  "packageManager": "npm@11.19.0"
+  "packageManager": "npm@11.21.0"
 }
