@@ -9,13 +9,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@hpcc-js/wasm-graphviz": "1.29.2",
-    "@lezer/common": "1.5.3",
+    "@hpcc-js/wasm-graphviz": "1.30.0",
+    "@lezer/common": "1.5.4",
     "@lezer/highlight": "1.2.5",
     "@lezer/lr": "1.4.11",
-    "@prometheus-io/lezer-promql": "0.315.0",
+    "@prometheus-io/lezer-promql": "0.315.1",
     "typescript": "7.0.2",
-    "vite": "8.3.3"
+    "vite": "8.3.5"
   },
   "engines": {
     "node": ">=24.21.0",
