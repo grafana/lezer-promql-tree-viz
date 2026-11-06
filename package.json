@@ -10,9 +10,9 @@
   },
   "devDependencies": {
     "@hpcc-js/wasm-graphviz": "1.30.0",
-    "@lezer/common": "1.5.4",
+    "@lezer/common": "1.5.5",
     "@lezer/highlight": "1.2.5",
-    "@lezer/lr": "1.4.11",
+    "@lezer/lr": "1.4.12",
     "@prometheus-io/lezer-promql": "0.315.1",
     "typescript": "7.0.2",
     "vite": "8.3.5"
